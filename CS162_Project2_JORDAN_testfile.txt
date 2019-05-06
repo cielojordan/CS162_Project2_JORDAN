@@ -1,0 +1,196 @@
+
+Test Case #1:
+Process #1 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+Process #2 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+
+Process #3 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 0   AVAILABLE RESOURCE #1: 2
+PROCESS RESOURCE #2: 1   AVAILABLE RESOURCE #2: 2
+PROCESS RESOURCE #3: 0   AVAILABLE RESOURCE #3: 0
+
+Process #1 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+Process #2 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+
+Process #4 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 4   AVAILABLE RESOURCE #1: 6
+PROCESS RESOURCE #2: 1   AVAILABLE RESOURCE #2: 3
+PROCESS RESOURCE #3: 0   AVAILABLE RESOURCE #3: 0
+
+Process #1 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+
+Process #2 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 1   AVAILABLE RESOURCE #1: 7
+PROCESS RESOURCE #2: 2   AVAILABLE RESOURCE #2: 5
+PROCESS RESOURCE #3: 3   AVAILABLE RESOURCE #3: 3
+
+
+Process #1 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 0   AVAILABLE RESOURCE #1: 7
+PROCESS RESOURCE #2: 0   AVAILABLE RESOURCE #2: 5
+PROCESS RESOURCE #3: 0   AVAILABLE RESOURCE #3: 3
+
+Safe sequence #1:
+Process 3 → Process 4 → Process 2 → Process 1
+
+Process #4 unable to be executed.
+
+There is a total of 1 safe-sequences
+Deadlock issue solved using PREVENTION and AVOIDANCE.
+
+
+Test Case #2:
+Process #1 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+Process #2 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+
+Process #3 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 1   AVAILABLE RESOURCE #1: 3
+PROCESS RESOURCE #2: 1   AVAILABLE RESOURCE #2: 2
+PROCESS RESOURCE #3: 0   AVAILABLE RESOURCE #3: 0
+
+Process #1 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+
+Process #2 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 1   AVAILABLE RESOURCE #1: 4
+PROCESS RESOURCE #2: 2   AVAILABLE RESOURCE #2: 4
+PROCESS RESOURCE #3: 3   AVAILABLE RESOURCE #3: 3
+
+
+Process #1 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 0   AVAILABLE RESOURCE #1: 4
+PROCESS RESOURCE #2: 0   AVAILABLE RESOURCE #2: 4
+PROCESS RESOURCE #3: 0   AVAILABLE RESOURCE #3: 3
+
+
+Process #4 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 4   AVAILABLE RESOURCE #1: 8
+PROCESS RESOURCE #2: 1   AVAILABLE RESOURCE #2: 5
+PROCESS RESOURCE #3: 0   AVAILABLE RESOURCE #3: 3
+
+Safe sequence #1:
+Process 3 → Process 2 → Process 1 → Process 4
+
+
+Process #4 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 4   AVAILABLE RESOURCE #1: 8
+PROCESS RESOURCE #2: 1   AVAILABLE RESOURCE #2: 5
+PROCESS RESOURCE #3: 0   AVAILABLE RESOURCE #3: 3
+
+
+Process #1 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 0   AVAILABLE RESOURCE #1: 8
+PROCESS RESOURCE #2: 0   AVAILABLE RESOURCE #2: 5
+PROCESS RESOURCE #3: 0   AVAILABLE RESOURCE #3: 3
+
+Safe sequence #2:
+Process 3 → Process 2 → Process 4 → Process 1
+
+
+Process #4 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 4   AVAILABLE RESOURCE #1: 7
+PROCESS RESOURCE #2: 1   AVAILABLE RESOURCE #2: 3
+PROCESS RESOURCE #3: 0   AVAILABLE RESOURCE #3: 0
+
+Process #1 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+
+Process #2 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 1   AVAILABLE RESOURCE #1: 8
+PROCESS RESOURCE #2: 2   AVAILABLE RESOURCE #2: 5
+PROCESS RESOURCE #3: 3   AVAILABLE RESOURCE #3: 3
+
+
+Process #1 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 0   AVAILABLE RESOURCE #1: 8
+PROCESS RESOURCE #2: 0   AVAILABLE RESOURCE #2: 5
+PROCESS RESOURCE #3: 0   AVAILABLE RESOURCE #3: 3
+
+Safe sequence #3:
+Process 3 → Process 4 → Process 2 → Process 1
+
+Process #4 unable to be executed.
+
+There is a total of 3 safe-sequences
+Deadlock issue solved using PREVENTION and AVOIDANCE.
+
+
+Test Case #3:
+Process #1 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+Process #2 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+Process #3 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+The system is not in a safe state. A deadlock has occurred and could not be solved.
+None of the processes' requests has been granted.
+
+
+Test Case #4:
+Process #1 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+Process #2 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+
+Process #3 currently executing.
+RESOURCE COUNT
+---------------------
+PROCESS RESOURCE #1: 1   AVAILABLE RESOURCE #1: 2
+PROCESS RESOURCE #2: 0   AVAILABLE RESOURCE #2: 0
+
+Process #1 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+Process #2 unable to be executed.
+The system is not in a safe state. A deadlock may occur.
+   Attempting to solve deadlock via RECOVERY. Initiating rollback.
+The system is not in a safe state. A deadlock has occurred and could not be solved.
+The following process/es' request/s has been granted: 
+Process 3
+
