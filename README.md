@@ -1,7 +1,7 @@
 |**********************************************************************;
 * Project           : Project 2
 *
-* Program name      : Deadloks
+* Program name      : Deadlocks
 *
 * Author            : Cielo Jordan
 *
